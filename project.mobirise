@@ -1,0 +1,2063 @@
+{
+  "settings": {
+    "name": "KAMIKITA_KEN",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      },
+      "additionalSetColors": [
+        "#2e2e2e"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "siteFonts": [],
+    "favicon": "",
+    "noImageResize": "",
+    "versionFirst": "4.7.7",
+    "uniqCompNum": 74,
+    "versionPublish": "4.8.10",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#2e2e2e",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"info.html\">INFO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"album.html\">ALBUM</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"video.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v1.html\" aria-expanded=\"false\">ミスト</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v2.html\" aria-expanded=\"false\">DIARY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v3.html\" aria-expanded=\"false\">月が綺麗</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v4.html\" aria-expanded=\"false\">笑って咲いて</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v5.html\" aria-expanded=\"false\">ビューティフル</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"concert.html\">CONCERT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"http://blogattach.naver.com/1f8a03b0a4f3fb2708ef8bbb87651960cc916c8202/20180530_216_blogfile/sinoz__1527671740961_5pld5W_swf/videoplayback+%284%29.swf\">BUY</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#141414"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#262626!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2e2e2e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/00-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KEN KAMIKITA</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-b"
+        },
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-lead": {
+              "color": "#9c9a9a"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false,
+            "contentAlign": "left",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/djr0hofv4aauszm-1094x677.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.3"
+          },
+          "title": "KEN KAMIKITA",
+          "text": "<br>\"SECRET\" in SEOUL<br>2018.06.03(SUN) &nbsp;15:30 / 16:00",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=18006085\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">RESERVATION NOW</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-0"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/00-128x128.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Contacts</strong><br><a href=\"mailto:kamikita_mail@ve.jvcmusic.co.jp\">kamikita_mail</a><br><a href=\"https://kamikitaken.com/pages/contact\" target=\"_blank\">kamikitaken_contact</a><br>",
+          "text3": "<strong>Links</strong><br><a href=\"https://kamikitaken.com/\" target=\"_blank\">KenKamikita_official</a><br><a href=\"https://twitter.com/kk_dk\" target=\"_blank\">KenKamikita_twitter</a><br><a href=\"https://www.facebook.com/kenkamikita.official/\" target=\"_blank\">KenKamikita_facebook</a><br><a href=\"https://www.instagram.com/kenkamikita/\" target=\"_blank\">KenKamikita_insta</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-2",
+          "_styles": {
+            "P": {
+              "color": "#c0a375"
+            }
+          }
+        }
+      ]
+    },
+    "info.html": {
+      "settings": {
+        "meta_descr": "info",
+        "title": "info",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "5",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "KEN KAMIKITA",
+          "text": "<p>上北健 (かみきたけん)</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-8"
+        },
+        {
+          "_params": {
+            "showText": false,
+            "paddingTop": "4",
+            "paddingBottom": "3",
+            "bgColor": "#2e2e2e"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bio-1120x534.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-i"
+        },
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#2e2e2e",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"info.html\">INFO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"album.html\">ALBUM</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"video.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v1.html\" aria-expanded=\"false\">ミスト</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v2.html\" aria-expanded=\"false\">DIARY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v3.html\" aria-expanded=\"false\">月が綺麗</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v4.html\" aria-expanded=\"false\">笑って咲いて</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v5.html\" aria-expanded=\"false\">ビューティフル</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"concert.html\">CONCERT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"http://blogattach.naver.com/1f8a03b0a4f3fb2708ef8bbb87651960cc916c8202/20180530_216_blogfile/sinoz__1527671740961_5pld5W_swf/videoplayback+%284%29.swf\">BUY</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#141414"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#262626!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2e2e2e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/00-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KEN KAMIKITA</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-b"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#2e2e2e"
+          },
+          "text": "<blockquote>1988년 10월 &nbsp;7일 도쿄 태생.</blockquote><blockquote>인터넷에 투고한 커버 곡이 주목 받으며 2014년 9월에 메이저 데뷔. 악곡을 제공받아서 활동하였다. 당시 활동명이었던 \"KK\"로 『心音(こころね)』을 발표했다.</blockquote><blockquote>2015년 9월, 싱어송라이터 \"카미키타 켄\"으로 오리지널 앨범인 『SCOOP』을 발표했다. 수록곡인『DIARY』 는 애니메이션 제작팀 \"南方(みなかた)研究所\" 와 협업한 뮤직비디오가 대표 곡으로서 지지를 모으고있다.</blockquote><blockquote>2016년 8월에 발표한 미니 앨범 『TIDE』 에서는 수록곡별 단편집을 집필했다. 이 앨범 수록곡 『ブルータウン』은 주연이자 일러스트레이터 및 미술 작가로 활약한 \"大槻香奈(おおつきかな)\" 와 음악세계관을 바탕으로 실제 그림을 그리는 장면을 뮤직비디오로 만들었다.</blockquote><blockquote>2017년 4월에 발표한 미니 앨범 『LAYERED』에서도 전작과 같이 단편집을 발매했다.</blockquote><blockquote>음악의 특징은 섬세하고 의지가 있는 열정적인 보컬과 문학적이고 강력한 메시지성을 지니고 있는 가사로 마음에 어딘가 상처를 가진 젊은 증을 중심으로 공감을 모은다.</blockquote>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-a",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "color": "#c0a375"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#2e2e2e"
+          },
+          "text": "<p>2017.12.30\n</p><p>上北 健 2017 LAST LIVE『イト結び』</p><p><br></p><p>\n</p><p>\n</p><p>2017.11.26\n</p><p>上北 健 meets 真藤 敬利 - PIANO DUO LIVE - 『雑踏に、あの日の私を見つけたら。』</p><p><br></p><p>\n</p><p>\n</p><p>2017.10\n</p><p>KEN KAMIKITA / KK 1st LIVE IN SEOUL（韓国公演2DAYS）\n</p><p>\n</p><p><br></p><p>2017.09.06\n</p><p>1st LIVE DVD 「生きゆく街に海を見る」リリース\n</p><p>\n</p><p><br></p><p>2017.09.01\n</p><p>1st LIVE DVD 「生きゆく街に海を見る」リリース記念アコースティックライブ ～海を渡る者～\n</p><p>\n</p><p><br></p><p>2017.06~07\n</p><p>「LAYERED」Release Tour 2017〜心の断面は美しいか〜\n</p><p>\n</p><p>DUCE SAPPORO／梅田シャングリラ／名古屋ell.FITSALL／博多キューブリック／広島CAVE-BE／仙台enn 2nd／渋谷duo Music Exchange\n</p><p>\n</p><p><br></p><p>2017.07.15\n</p><p>OTODADMA SEA STUDIO 2017 イベント出演\n</p><p>\n</p><p><br></p><p>2017.04.15\n</p><p>上北健 HALL LIVE IN TOKYO \"僕と君が、前を向くための歌” 3rd STAGE『生きゆく街に海を見る』at 日本橋三井ホール\n</p><p>\n</p><p><br></p><p>2017.04.12\n</p><p>2nd mini-album「LAYERED」リリース\n</p><p>\n</p><p><br></p><p>2016.12.25\n</p><p>「毎日がクリスマス」出演 at 横浜赤レンガ倉庫1号館 3Fホール\n</p><p>\n</p><p><br></p><p>2016.11\n</p><p>「TIDE」Release Tour 2016 -acoustic side-\n</p><p>福岡　LIV LABO　\n</p><p><span style=\"font-size: 1.07rem;\">広島 音楽喫茶　ヲルガン座</span><br></p><p>\n</p><p><br></p><p>2016.10.28\n</p><p>札幌時計台ホール アコースティックライブ\n</p><p>\n</p><p><br></p><p>2016.08~09\n</p><p>「TIDE」Release Tour 2016\n</p><p>\n</p><p>大阪umeda AKASO／仙台enn 2nd／名古屋ボトムライン／青山・草月ホール\n</p><p>\n</p><p><br></p><p>2016.08.03\n</p><p>1st mini-album「TIDE」リリース\n</p><p>\n</p><p><br></p><p>2016.07.31\n</p><p>OTODADMA SEA STUDIO 2016 イベント出演\n</p><p>\n</p><p><br></p><p>2016.04.16\n</p><p>上北健 HALL LIVE IN TOKYO \"僕と君が、前を向くための歌” 2nd STAGE at 日本橋三井ホール\n</p><p>\n</p><p><br></p><p>2015.12.24\n</p><p>丸の内KITTEクリスマスライブ出演\n</p><p>\n</p><p><br></p><p>2015.11~12\n</p><p>「SCOOP」Release Tour “ヒトスクイ”\n</p><p>\n</p><p>名古屋ell.FITSALL／阿倍野ROCKTOWN／下北沢GARDEN\n</p><p>\n</p><p><br></p><p>2015.09.08\n</p><p>1stフルアルバム「SCOOP」リリース\n</p><p>\n</p><p><br></p><p>2015.02.28\n</p><p>上北健 HALL LIVE IN TOKYO \"僕と君が、前を向くための歌” 1st STAGE at 銀座YAMAHAホール</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-h",
+          "_styles": {
+            "P": {
+              "color": "#efefef",
+              "text-align": "left",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/00-128x128.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Contacts</strong><br><a href=\"mailto:kamikita_mail@ve.jvcmusic.co.jp\">kamikita_mail</a><br><a href=\"https://kamikitaken.com/pages/contact\" target=\"_blank\">kamikitaken_contact</a><br>",
+          "text3": "<strong>Links</strong><br><a href=\"https://kamikitaken.com/\" target=\"_blank\">KenKamikita_official</a><br><a href=\"https://twitter.com/kk_dk\" target=\"_blank\">KenKamikita_twitter</a><br><a href=\"https://www.facebook.com/kenkamikita.official/\" target=\"_blank\">KenKamikita_facebook</a><br><a href=\"https://www.instagram.com/kenkamikita/\" target=\"_blank\">KenKamikita_insta</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-2",
+          "_styles": {
+            "P": {
+              "color": "#c0a375"
+            }
+          }
+        }
+      ]
+    },
+    "album.html": {
+      "settings": {
+        "meta_descr": "album",
+        "title": "album",
+        "order": 2
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#2e2e2e",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"info.html\">INFO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"album.html\">ALBUM</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"video.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v1.html\" aria-expanded=\"false\">ミスト</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v2.html\" aria-expanded=\"false\">DIARY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v3.html\" aria-expanded=\"false\">月が綺麗</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v4.html\" aria-expanded=\"false\">笑って咲いて</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v5.html\" aria-expanded=\"false\">ビューティフル</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"concert.html\">CONCERT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"http://blogattach.naver.com/1f8a03b0a4f3fb2708ef8bbb87651960cc916c8202/20180530_216_blogfile/sinoz__1527671740961_5pld5W_swf/videoplayback+%284%29.swf\">BUY</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#141414"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#262626!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2e2e2e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/00-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KEN KAMIKITA</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-b"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "columnsColor": "#2e2e2e",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/d99bf1c859d04c95dbc9fc139e8057c3-600x600.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/983450bdc33e24b053085b44fcfc9287-600x600.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/c1ae6314e378d32c7118a6d64b7d7081-600x600.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/7c19b68516e856a82ad548d154f052f7-600x600.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "SCOOP",
+          "subtitle1": "2015.09.09 ALBUM",
+          "caption1": "01.false color\n<br>02.DIARY\n<br>03.クロス・ストリート\n<br>04.Phototaxis\n<br>05.ゆらぎ\n<br>06.本音の手紙\n<br>07.緑閃光\n<br>08.泣いていたから\n<br>09.アイニイキル\n<br>10.ミスト\n<br>11.空が繋いだ\n<br>12.log\n<br>13.COMPASS",
+          "title2": "TIDE",
+          "subtitle2": "2016.08.03 MINI-ALBUM",
+          "caption2": "01.月が綺麗\n<br>02.ブルータウン\n<br>03.約束\n<br>04.上昇\n<br>05.GROWING POINT\n<br>06.フラワーパズル\n<br>07.ブルータウン -Acoustic ver.-",
+          "title3": "LAYERED",
+          "subtitle3": "2017.04.12 MINI-ALBUM",
+          "caption3": "01.笑って咲いて\n<br>02.スイマー\n<br>03.心分け\n<br>04.メグル\n<br>05.新しい日\n<br>06.Fly Fly Fly",
+          "title4": "ビューティフル",
+          "subtitle4": "2018.03.09 SINGLE",
+          "caption4": "01.ビューティフル\n<br>02.ミスト -Acoustic Edition-\n<br>",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": " <a data-app-btn=\"true\" href=\"https://www.amazon.co.jp/SCOOP-DVD%E4%BB%98%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4-%E4%B8%8A%E5%8C%97%E5%81%A5/dp/B00Z9YBCCW/ref=pd_bxgy_15_img_2?_encoding=UTF8&amp;psc=1&amp;refRID=563WT06R165DQ0K35TTZ\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">BUY</a>",
+          "button2": " <a data-app-btn=\"true\" href=\"https://www.amazon.co.jp/TIDE-%E4%B8%8A%E5%8C%97%E5%81%A5/dp/B01HDSLMH6/ref=sr_1_1?s=music&amp;ie=UTF8&amp;qid=1500608278&amp;sr=1-1&amp;keywords=TIDE\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">BUY</a>",
+          "button3": " <a data-app-btn=\"true\" href=\"https://www.amazon.co.jp/LAYERED-%E4%B8%8A%E5%8C%97%E5%81%A5/dp/B01N3A8N5W/ref=pd_bxgy_15_img_3?_encoding=UTF8&amp;psc=1&amp;refRID=C0Y1C3GGH7WPKQCNY201\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">BUY</a>",
+          "button4": " <a data-app-btn=\"true\" href=\"https://www.amazon.co.jp/gp/product/B07B3RYJ8N\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">BUY</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-6",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#2e2e2e"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/00-128x128.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Contacts</strong><br><a href=\"mailto:kamikita_mail@ve.jvcmusic.co.jp\">kamikita_mail</a><br><a href=\"https://kamikitaken.com/pages/contact\" target=\"_blank\">kamikitaken_contact</a><br>",
+          "text3": "<strong>Links</strong><br><a href=\"https://kamikitaken.com/\" target=\"_blank\">KenKamikita_official</a><br><a href=\"https://twitter.com/kk_dk\" target=\"_blank\">KenKamikita_twitter</a><br><a href=\"https://www.facebook.com/kenkamikita.official/\" target=\"_blank\">KenKamikita_facebook</a><br><a href=\"https://www.instagram.com/kenkamikita/\" target=\"_blank\">KenKamikita_insta</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-2",
+          "_styles": {
+            "P": {
+              "color": "#c0a375"
+            }
+          }
+        }
+      ]
+    },
+    "v2.html": {
+      "settings": {
+        "meta_descr": "diary",
+        "title": "diary",
+        "order": 5
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#2e2e2e",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"info.html\">INFO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"album.html\">ALBUM</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"video.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v1.html\" aria-expanded=\"false\">ミスト</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v2.html\" aria-expanded=\"false\">DIARY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v3.html\" aria-expanded=\"false\">月が綺麗</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v4.html\" aria-expanded=\"false\">笑って咲いて</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v5.html\" aria-expanded=\"false\">ビューティフル</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"concert.html\">CONCERT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"http://blogattach.naver.com/1f8a03b0a4f3fb2708ef8bbb87651960cc916c8202/20180530_216_blogfile/sinoz__1527671740961_5pld5W_swf/videoplayback+%284%29.swf\">BUY</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#141414"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#262626!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2e2e2e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/00-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KEN KAMIKITA</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-10"
+        },
+        {
+          "_params": {
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/image1.jpg",
+              "width": 1400
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/MkrAZi7GMpI",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "text": "<p>上北 健 「DIARY」 MusicVideo</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "video1",
+          "_anchor": "video1-12"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/00-128x128.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Contacts</strong><br><a href=\"mailto:kamikita_mail@ve.jvcmusic.co.jp\">kamikita_mail</a><br><a href=\"https://kamikitaken.com/pages/contact\" target=\"_blank\">kamikitaken_contact</a><br>",
+          "text3": "<strong>Links</strong><br><a href=\"https://kamikitaken.com/\" target=\"_blank\">KenKamikita_official</a><br><a href=\"https://twitter.com/kk_dk\" target=\"_blank\">KenKamikita_twitter</a><br><a href=\"https://www.facebook.com/kenkamikita.official/\" target=\"_blank\">KenKamikita_facebook</a><br><a href=\"https://www.instagram.com/kenkamikita/\" target=\"_blank\">KenKamikita_insta</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#c0a375"
+            }
+          },
+          "_anchor": "contacts1-15"
+        }
+      ]
+    },
+    "v3.html": {
+      "settings": {
+        "meta_descr": "tsuki Ga Kirei",
+        "title": "tsuki Ga Kirei",
+        "order": 6
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#2e2e2e",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"info.html\">INFO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"album.html\">ALBUM</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"video.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v1.html\" aria-expanded=\"false\">ミスト</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v2.html\" aria-expanded=\"false\">DIARY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v3.html\" aria-expanded=\"false\">月が綺麗</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v4.html\" aria-expanded=\"false\">笑って咲いて</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v5.html\" aria-expanded=\"false\">ビューティフル</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"concert.html\">CONCERT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"http://blogattach.naver.com/1f8a03b0a4f3fb2708ef8bbb87651960cc916c8202/20180530_216_blogfile/sinoz__1527671740961_5pld5W_swf/videoplayback+%284%29.swf\">BUY</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#141414"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#262626!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2e2e2e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/00-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KEN KAMIKITA</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-16"
+        },
+        {
+          "_params": {
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/image1.jpg",
+              "width": 1400
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/7Sf2E3U8EnA",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "text": "<p>上北 健 「月が綺麗 」 MusicVideo</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "video1",
+          "_anchor": "video1-19"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/00-128x128.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Contacts</strong><br><a href=\"mailto:kamikita_mail@ve.jvcmusic.co.jp\">kamikita_mail</a><br><a href=\"https://kamikitaken.com/pages/contact\" target=\"_blank\">kamikitaken_contact</a><br>",
+          "text3": "<strong>Links</strong><br><a href=\"https://kamikitaken.com/\" target=\"_blank\">KenKamikita_official</a><br><a href=\"https://twitter.com/kk_dk\" target=\"_blank\">KenKamikita_twitter</a><br><a href=\"https://www.facebook.com/kenkamikita.official/\" target=\"_blank\">KenKamikita_facebook</a><br><a href=\"https://www.instagram.com/kenkamikita/\" target=\"_blank\">KenKamikita_insta</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#c0a375"
+            }
+          },
+          "_anchor": "contacts1-1b"
+        }
+      ]
+    },
+    "v4.html": {
+      "settings": {
+        "meta_descr": "smile in Bloom",
+        "title": "smile in Bloom",
+        "order": 7
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#2e2e2e",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"info.html\">INFO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"album.html\">ALBUM</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"video.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v1.html\" aria-expanded=\"false\">ミスト</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v2.html\" aria-expanded=\"false\">DIARY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v3.html\" aria-expanded=\"false\">月が綺麗</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v4.html\" aria-expanded=\"false\">笑って咲いて</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v5.html\" aria-expanded=\"false\">ビューティフル</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"concert.html\">CONCERT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"http://blogattach.naver.com/1f8a03b0a4f3fb2708ef8bbb87651960cc916c8202/20180530_216_blogfile/sinoz__1527671740961_5pld5W_swf/videoplayback+%284%29.swf\">BUY</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#141414"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#262626!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2e2e2e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/00-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KEN KAMIKITA</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1c"
+        },
+        {
+          "_params": {
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/image1.jpg",
+              "width": 1400
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/RIFZ7NF4HSk",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "text": "<p>上北 健「笑って咲いて｜Smile in Bloom」MusicVideo</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "video1",
+          "_anchor": "video1-1g"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/00-128x128.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Contacts</strong><br><a href=\"mailto:kamikita_mail@ve.jvcmusic.co.jp\">kamikita_mail</a><br><a href=\"https://kamikitaken.com/pages/contact\" target=\"_blank\">kamikitaken_contact</a><br>",
+          "text3": "<strong>Links</strong><br><a href=\"https://kamikitaken.com/\" target=\"_blank\">KenKamikita_official</a><br><a href=\"https://twitter.com/kk_dk\" target=\"_blank\">KenKamikita_twitter</a><br><a href=\"https://www.facebook.com/kenkamikita.official/\" target=\"_blank\">KenKamikita_facebook</a><br><a href=\"https://www.instagram.com/kenkamikita/\" target=\"_blank\">KenKamikita_insta</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#c0a375"
+            }
+          },
+          "_anchor": "contacts1-1h"
+        }
+      ]
+    },
+    "v5.html": {
+      "settings": {
+        "meta_descr": "beautiful",
+        "title": "beautiful",
+        "order": 8
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#2e2e2e",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"info.html\">INFO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"album.html\">ALBUM</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"video.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v1.html\" aria-expanded=\"false\">ミスト</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v2.html\" aria-expanded=\"false\">DIARY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v3.html\" aria-expanded=\"false\">月が綺麗</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v4.html\" aria-expanded=\"false\">笑って咲いて</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v5.html\" aria-expanded=\"false\">ビューティフル</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"concert.html\">CONCERT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"http://blogattach.naver.com/1f8a03b0a4f3fb2708ef8bbb87651960cc916c8202/20180530_216_blogfile/sinoz__1527671740961_5pld5W_swf/videoplayback+%284%29.swf\">BUY</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#141414"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#262626!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2e2e2e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/00-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KEN KAMIKITA</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1i"
+        },
+        {
+          "_params": {
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/image1.jpg",
+              "width": 1400
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/-QGLQbfHQSc",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "text": "<p>上北 健「ビューティフル」Music Video</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "video1",
+          "_anchor": "video1-1l"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/00-128x128.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Contacts</strong><br><a href=\"mailto:kamikita_mail@ve.jvcmusic.co.jp\">kamikita_mail</a><br><a href=\"https://kamikitaken.com/pages/contact\" target=\"_blank\">kamikitaken_contact</a><br>",
+          "text3": "<strong>Links</strong><br><a href=\"https://kamikitaken.com/\" target=\"_blank\">KenKamikita_official</a><br><a href=\"https://twitter.com/kk_dk\" target=\"_blank\">KenKamikita_twitter</a><br><a href=\"https://www.facebook.com/kenkamikita.official/\" target=\"_blank\">KenKamikita_facebook</a><br><a href=\"https://www.instagram.com/kenkamikita/\" target=\"_blank\">KenKamikita_insta</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#c0a375"
+            }
+          },
+          "_anchor": "contacts1-1k"
+        }
+      ]
+    },
+    "concert.html": {
+      "settings": {
+        "meta_descr": "Site Creator Description",
+        "title": "concert",
+        "order": 9
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#2e2e2e",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"info.html\">INFO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"album.html\">ALBUM</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"video.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v1.html\" aria-expanded=\"false\">ミスト</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v2.html\" aria-expanded=\"false\">DIARY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v3.html\" aria-expanded=\"false\">月が綺麗</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v4.html\" aria-expanded=\"false\">笑って咲いて</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v5.html\" aria-expanded=\"false\">ビューティフル</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"concert.html\">CONCERT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"http://blogattach.naver.com/1f8a03b0a4f3fb2708ef8bbb87651960cc916c8202/20180530_216_blogfile/sinoz__1527671740961_5pld5W_swf/videoplayback+%284%29.swf\">BUY</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#141414"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#262626!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2e2e2e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/00-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KEN KAMIKITA</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-b"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "title": "KEN KAMIKITA<br>\"SECRET\" in SEOUL",
+          "text": "<br>2018.06.03(SUN)<br>MUV HALL<br>15:30 / 16:00&nbsp;<br><br>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=18006085\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">RESERVATION NOW</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-c",
+          "_styles": {
+            ".mbr-section-lead": {
+              "font-size": "24px",
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "60px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showText": false,
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgColor": "#2e2e2e"
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/image1.jpg",
+              "width": 1400
+            },
+            "video": {
+              "src": "https://youtu.be/uqF-AwPc1WE",
+              "autoplay": false,
+              "loop": false,
+              "active": true
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-1v"
+        },
+        {
+          "_params": {
+            "googleMap": {
+              "address": "서울특별시 마포구 서교동 잔다리로 32 MUV-Hall",
+              "placeId": "ChIJrfP8jdqYfDUR68Wxa44PDXU",
+              "state": "ok",
+              "stateDetails": ""
+            },
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgColor": "#2e2e2e"
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map2",
+          "_anchor": "map2-d"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/00-128x128.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Contacts</strong><br><a href=\"mailto:kamikita_mail@ve.jvcmusic.co.jp\">kamikita_mail</a><br><a href=\"https://kamikitaken.com/pages/contact\" target=\"_blank\">kamikitaken_contact</a><br>",
+          "text3": "<strong>Links</strong><br><a href=\"https://kamikitaken.com/\" target=\"_blank\">KenKamikita_official</a><br><a href=\"https://twitter.com/kk_dk\" target=\"_blank\">KenKamikita_twitter</a><br><a href=\"https://www.facebook.com/kenkamikita.official/\" target=\"_blank\">KenKamikita_facebook</a><br><a href=\"https://www.instagram.com/kenkamikita/\" target=\"_blank\">KenKamikita_insta</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-2",
+          "_styles": {
+            "P": {
+              "color": "#c0a375"
+            }
+          }
+        }
+      ]
+    },
+    "video.html": {
+      "settings": {
+        "meta_descr": "music video",
+        "title": "video",
+        "order": 3
+      },
+      "components": [
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "columns": "5",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/600x338.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "v1.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/600x3389.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "v2.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/600x33810.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/smile-in-600x338.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "v4.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/600x33811.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "v5.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "ミスト",
+          "subtitle1": "2015. 6. 9.",
+          "caption1": "1st Full-Album<br>『SCOOP』<br>2015/9/9 Release",
+          "title2": "DIARY",
+          "subtitle2": "2015. 7. 23.",
+          "caption2": "1st Full-Album<br>『SCOOP』 <br>2015/9/9 Release",
+          "title3": "月が綺麗",
+          "subtitle3": "2016. 8. 2.",
+          "caption3": "1st mini-album<br>『TIDE』&amp;『TIDE CONCEPT BOOK』\n<br>2016/8/3 Release",
+          "title4": "笑って咲いて",
+          "subtitle4": "2017. 1. 31.",
+          "caption4": "2nd mini-album<br>『LAYERED』&amp;『LAYERED CONCEPT BOOK』\n<br>2017/4/12 Release",
+          "title5": "ビューティフル",
+          "subtitle5": "2018. 3. 9.",
+          "caption5": "Limited Single『ビューティフル』<br>Music &amp; Book\n<br>2018/3/9 Release&nbsp;<br>",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"v1.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"v2.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"v3.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"v4.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-1w",
+          "_styles": {
+            "P": {
+              "color": "#efefef"
+            },
+            "H4": {
+              "color": "#efefef"
+            }
+          }
+        },
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#2e2e2e",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"info.html\">INFO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"album.html\">ALBUM</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"video.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v1.html\" aria-expanded=\"false\">ミスト</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v2.html\" aria-expanded=\"false\">DIARY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v3.html\" aria-expanded=\"false\">月が綺麗</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v4.html\" aria-expanded=\"false\">笑って咲いて</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v5.html\" aria-expanded=\"false\">ビューティフル</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"concert.html\">CONCERT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"http://blogattach.naver.com/1f8a03b0a4f3fb2708ef8bbb87651960cc916c8202/20180530_216_blogfile/sinoz__1527671740961_5pld5W_swf/videoplayback+%284%29.swf\">BUY</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#141414"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#262626!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2e2e2e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/00-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KEN KAMIKITA</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-j"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/00-128x128.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Contacts</strong><br><a href=\"mailto:kamikita_mail@ve.jvcmusic.co.jp\">kamikita_mail</a><br><a href=\"https://kamikitaken.com/pages/contact\" target=\"_blank\">kamikitaken_contact</a><br>",
+          "text3": "<strong>Links</strong><br><a href=\"https://kamikitaken.com/\" target=\"_blank\">KenKamikita_official</a><br><a href=\"https://twitter.com/kk_dk\" target=\"_blank\">KenKamikita_twitter</a><br><a href=\"https://www.facebook.com/kenkamikita.official/\" target=\"_blank\">KenKamikita_facebook</a><br><a href=\"https://www.instagram.com/kenkamikita/\" target=\"_blank\">KenKamikita_insta</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#c0a375"
+            }
+          },
+          "_anchor": "contacts1-k"
+        }
+      ]
+    },
+    "v1.html": {
+      "settings": {
+        "meta_descr": "mist",
+        "title": "mist",
+        "order": 4
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#2e2e2e",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"info.html\">INFO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"album.html\">ALBUM</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"video.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v1.html\" aria-expanded=\"false\">ミスト</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v2.html\" aria-expanded=\"false\">DIARY</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v3.html\" aria-expanded=\"false\">月が綺麗</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v4.html\" aria-expanded=\"false\">笑って咲いて</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"v5.html\" aria-expanded=\"false\">ビューティフル</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"concert.html\">CONCERT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"http://blogattach.naver.com/1f8a03b0a4f3fb2708ef8bbb87651960cc916c8202/20180530_216_blogfile/sinoz__1527671740961_5pld5W_swf/videoplayback+%284%29.swf\">BUY</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#141414"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#262626!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2e2e2e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/00-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KEN KAMIKITA</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1y"
+        },
+        {
+          "_params": {
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/image1.jpg",
+              "width": 1400
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/f1srPatcDBA",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "text": "<p>上北 健 「ミスト」 MusicVideo</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "video1",
+          "_anchor": "video1-21"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/00-128x128.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Contacts</strong><br><a href=\"mailto:kamikita_mail@ve.jvcmusic.co.jp\">kamikita_mail</a><br><a href=\"https://kamikitaken.com/pages/contact\" target=\"_blank\">kamikitaken_contact</a><br>",
+          "text3": "<strong>Links</strong><br><a href=\"https://kamikitaken.com/\" target=\"_blank\">KenKamikita_official</a><br><a href=\"https://twitter.com/kk_dk\" target=\"_blank\">KenKamikita_twitter</a><br><a href=\"https://www.facebook.com/kenkamikita.official/\" target=\"_blank\">KenKamikita_facebook</a><br><a href=\"https://www.instagram.com/kenkamikita/\" target=\"_blank\">KenKamikita_insta</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#c0a375"
+            }
+          },
+          "_anchor": "contacts1-20"
+        }
+      ]
+    }
+  }
+}
